@@ -54,6 +54,5 @@ app.get("/oauth2callback", async (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
     console.log(`Visit http://localhost:${PORT}/auth to start authentication.`);
 });
